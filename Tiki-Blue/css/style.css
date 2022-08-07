@@ -1,0 +1,251 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.one-of-four {
+    width:25%;
+    float:left;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.three-of-four {
+    width:75%;
+    float:left;
+}
+
+a {
+    color:white;
+}
+.one-of-two {
+    width:50%;
+    float:left;
+}
+/*------------HEADER-------------*/
+
+#header {
+    background-image: linear-gradient(rgba(2,255,255, 0.3),rgba(255,255,255, 0.3)), url(../img/BackgroundImage.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    height:100vh;
+    position:relative;
+    color:white;
+    width:100%;
+}
+
+#header .texture {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/asfalt-light.png); 
+    height:100%;
+}
+
+#header nav{
+    position:fixed;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul{
+    position: absolute;
+    right: 3%;
+    top: 35%;
+    transform: translate(0,-50%);
+    list-style: none;
+    text-align:center;
+    background-color:rgb(3, 201, 169);
+    padding: 10px 0;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-right:20px;
+}
+
+nav li{
+    float: left;
+    margin: 0 10px;
+    font-size:20px;
+    background-color:rgb(183, 244, 216);
+    padding:10px 50px;
+    color:white;
+    border-radius:10px;
+}
+
+nav h1 {
+    font-size:75px;
+    background-color:rgb(183, 244, 216);
+    width:306px;
+    border-bottom-right-radius:10px;
+    margin-top:15px;
+}
+
+nav h3 {
+    font-size:35px;
+    font-weight:300;
+    background-color:rgb(3, 201, 169);
+    width:228px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav h1, nav h3 {
+    padding:20px;
+    margin-left:30px;
+}
+
+#header .one-of-four a {
+    text-align: center;
+    text-decoration:none;
+    color:black;
+    font-size:30px;
+}
+
+#header .buttons {
+    position:relative;
+    text-align:center;
+    top:85%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    background-color:#292E37;
+    padding-top:25px;
+    padding-right:0;
+    padding-left:0;
+    padding-bottom:25px;
+}
+
+#header .buttons .ADDID, #header .buttons .SEARCH, #header .buttons .REPORTMISSING, #header .buttons .REPORTFOUND {
+    background-color:red;
+    margin: 0 10%;
+    padding: 50px 0;
+    border-radius: 25px;
+}
+
+#header .buttons .ADDID {
+    background-color:rgba(144, 198, 149);
+}
+#header .buttons .SEARCH {
+    background-color:rgba(147, 250, 165);
+}
+#header .buttons .REPORTMISSING {
+    background-color:rgba(200, 247, 197);
+}
+#header .buttons .REPORTFOUND {
+    background-color:rgba(3, 201, 169);
+}
+
+#header .headline-text {
+    position:absolute;
+    top:50%;
+    left:65%;
+    transform:translate(-50%,-50%);
+    background-color: rgb(4, 147, 114);
+    border-radius:10px;
+    padding:10px;
+    width:650px;
+}
+
+#header .headline-paragraph {
+    position:absolute;
+    top:70%;
+    right:50%;
+    transform:translate(-50%,-50%);
+    background-color: rgba(3, 201, 169);
+    border-radius:10px;
+    padding:10px;
+    width:200px;
+    font-weight:500;
+    font-size:20px;
+}
+
+#header h {
+    font-size:75px;
+    font-weight:700;
+    text-align:right;
+}
+
+#header .dark {
+    
+    background-color: #292E37;
+    position:absolute;
+    right: 3%;
+    top: 15%;
+    transform: translate(0,-50%);
+    padding: 10px 0;
+    border-radius:10px;
+    margin-right:20px;
+    width:703.7px;
+    height:150px;
+}
+
+#header .dark ul{
+    margin-right:51px;
+}
+
+#header .darkH {
+    background-color: #292E37;
+    position:absolute;
+    left: 40px;
+    top: 15%;
+    transform: translate(0,-50%);
+    width:346.4px;
+    height:150px;
+    z-index:-1;
+}
+
+#header .darkT {
+    background-color: #292E37;
+    position:absolute;
+    left:20%;
+    top: 0;
+    width:65%;
+    height:15px;
+    z-index:-1;
+}
+
+#header a:hover{
+    background-color: #24e098;
+    transition: background-color 1s;
+}
+
+#header .buttons .ADDID:hover, #header .buttons .SEARCH:hover, #header .buttons .REPORTMISSING:hover, #header .buttons .REPORTFOUND:hover {
+    background-color: #24e098;
+    transition: background-color 1s;
+}
+
+#header li:hover{
+    background-color: #24e098;
+    transition: background-color 1s;
+}
+
+/*-------------FOOTER---------------*/
+
+footer{
+    background-color:lightslategray;
+    padding: 50px 0;
+}
+
+footer a{
+    text-decoration: light;
+    color: white;
+}
+
+footer li{
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    color: lightgray;
+    margin-top: 15px;
+}
+
+
+
